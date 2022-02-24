@@ -17,7 +17,7 @@ body
 header
 {
 	background-color: Bisque;
-	border: 3px dashed BurlyWood;
+	border: 3px double BurlyWood;
 	margin: 10px 100px;
 }
 header h1
