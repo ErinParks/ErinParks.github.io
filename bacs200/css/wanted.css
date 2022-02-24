@@ -6,13 +6,13 @@
 */
 :root
 {
-	Bisque: rgb(255, 228, 196);
+	--Bisque: rgb(255, 228, 196);
 }
 body
 {
 	text-align: center;
 	list-style-position: inside;
-	background-color:  var(Bisque);
+	background-color:  var(--Bisque);
 }
 header
 {
