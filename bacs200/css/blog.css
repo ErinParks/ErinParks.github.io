@@ -6,17 +6,17 @@
 */
 :root
 {
-	--darkred: rbg(139,0,0)
+	--darkred: rbg(255, 41, 41)
 }
 body
 {
-	text-align: center;
+	text-align: left;
 	list-style-position: inside;
 	background-color:  var(--darkred);
 }
 header
 {
 	background-color: darkred;
-	border: 3px double BurlyWood;
+	border: 3px double black;
 	margin: 10px 100px;
 }
