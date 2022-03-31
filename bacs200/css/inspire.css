@@ -1,0 +1,62 @@
+/*
+*
+{
+	border: 1px Solid red;
+}
+*/
+:root
+{
+	--blue: rgb(43, 43, 212);
+}
+body
+{
+	text-align: center;
+	list-style-position: inside;
+	background-color:  var(--blue);
+}
+header
+{
+	background-color: blue;
+	border: 3px double red;
+	margin: 10px 100px;
+}
+header h1
+{
+	font-size:  60pt;
+	margin-top:  10px;
+	margin-bottom: 0;
+}
+header h2
+{
+	font-size:  20pt;
+	color:black;
+	font-variant: small-caps;
+}
+main h1
+{
+	font-size:  70pt;
+	font-family: "Times New Roman", Times, serif;
+	margin: 0;
+}
+h1+h2
+{
+	margin-top: -15px;
+}
+main h2
+{
+	text-decoration: underline;
+	font-weight: bold;
+	margin-bottom: 0;
+}
+main ul
+{
+	display:  table;
+	margin: 0 auto;
+	text-align:  left;
+	padding-left: 2px;
+}
+#wantedlist
+{
+	font-size: 25pt;
+	float:  right;
+}
