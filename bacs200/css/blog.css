@@ -8,15 +8,27 @@
 {
 	--darkred: rbg(255, 41, 41)
 }
+header
+{
+	background-color: darkred;
+	border: 3px double black;
+	margin: 10px 100px;
+	text-align: center;
+	list-style-position: inside;
+	background-color:  var(--darkred);
+}
+
 body
 {
 	text-align: left;
 	list-style-position: inside;
 	background-color:  var(--darkred);
 }
-header
+h1
 {
-	background-color: darkred;
-	border: 3px double black;
-	margin: 10px 100px;
+	text-color: white;
+}
+h2
+{
+	text-color: darkred;
 }
